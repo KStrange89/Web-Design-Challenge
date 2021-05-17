@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    background:  rgba(0, 255, 255, 1);
+    background: linear-gradient(top, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
+    background: -webkit-linear-gradient(top, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
+    background: -moz-linear-gradient(top, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
+    color: darkgrey;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 50px;
+    background: grey;
+    background: radial-gradient(left, rgba(0,0,0,.5), rgba(0,0,0,.9));
+    background: -webkit-radial-gradient(left, rgba(0,0,0,.5), rgba(0,0,0,.9));
+    background: -moz-radial-gradient(left, lightgrey, darkgrey);
+    color: white;
+}
+
+p {
+    font-size: 30px;
+    padding: 50px;
+}
+
+a {
+    color: darkgrey;
+}
+
+.sidebar{
+    background-color: rgb(2, 2, 59);
+    margin: 10px;
+    max-height: fit-content;
+}
+
+.sidebar a {
+    padding: 40px;
+    font-size: 25px;
+}
+
+.sidebar a:hover:not(.active) {
+    color: white;
+  }
