@@ -27,17 +27,15 @@ a {
     color: darkgrey;
 }
 
-.sidebar{
-    background-color: rgb(2, 2, 59);
-    margin: 10px;
-    max-height: fit-content;
+.navbar-custom{
+    background-color: rgba(3, 3, 122, 0.5);
 }
 
-.sidebar a {
-    padding: 40px;
-    font-size: 25px;
+@media (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
 }
-
-.sidebar a:hover:not(.active) {
-    color: white;
-  }
