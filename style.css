@@ -20,7 +20,7 @@ h1 {
 
 p {
     font-size: 30px;
-    padding: 50px;
+    padding: 25px;
 }
 
 a {
@@ -29,6 +29,13 @@ a {
 
 .navbar-custom{
     background-color: rgba(3, 3, 122, 0.5);
+}
+
+.sidebar img {
+    height: 100px;
+    width: 150px;
+    background-color: rgba(255,255,225,.5);
+    margin: 20px;
 }
 
 @media (max-width: 600px) {
