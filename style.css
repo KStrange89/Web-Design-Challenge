@@ -66,6 +66,7 @@ h2 {
     width: 30%
 }
 
+
 .first {
     margin-top: 0;
     margin-bottom: 0;
@@ -78,9 +79,13 @@ h2 {
 
 .right {
     float: right;
-    color: rgb(14, 14, 78);
-    margin: 10px;
+    padding: 0 10px 0 0;
+    background-color: rgba(100,100,100,.5);
+    border-radius: 10px;
+    margin: 25px 15px 0 25px;
+    width: 30%
 }
+
 
 @media (max-width: 600px) {
 	.topnav.responsive {position: relative;}
