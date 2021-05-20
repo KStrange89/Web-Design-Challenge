@@ -5,7 +5,7 @@ body {
     background: linear-gradient(top, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
     background: -webkit-linear-gradient(bottom, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
     background: -moz-linear-gradient(top, rgba(3, 3, 122, 0.5), rgba(0,0,255,1));
-    color: darkgrey;
+    color:rgba(6, 6, 83, .9);
 }
 
 
@@ -33,6 +33,7 @@ h2 {
     padding-bottom: 0;
     max-height: 25 px;
     color:rgba(6, 6, 83, 1);
+    font-weight: bold;
 }
 
 .navbar-custom{
@@ -87,6 +88,15 @@ h2 {
     width: 30%
 }
 
+.together img {
+    background-color: rgba(255,255,225,.5);
+    border-radius: 25%;
+    width: 115%
+}
+
+.together {
+    margin-right: 25px;
+}
 
 @media (max-width: 600px) {
 	.topnav.responsive {position: relative;}

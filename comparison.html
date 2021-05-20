@@ -52,58 +52,44 @@
         </div>
     </nav>
 
-    <!--Left Column-->
 
     <div class="container-fluid">
-        <div class="row summary">
-            <div class="col-md-8 col-sm-12 paragraph">
-                <div>
-                    <h2>Comparison</h2>
-                    <hr>
-                    <img src="Resources/Images/world_hum_v_lat.png" class="left">
-                    <p class="first">
-                        On this site, we will be looking at how distance 
-                        from the equator effects weather patterns. 
-                        To gather this data, we chose a random sample of 
-                        lattitude and longitude points from around the world, 
-                        found the city closest to the coordinate point, 
-                        and viewed weather data from that city. We then 
-                        compiled the data into a table and used the table to 
-                        create scatterplots and find correlation.  
-                    </p>
-                    <p class="second">
-                        The measures of weather used are 
-                        temperature, humidity, cloudiness, and wind speed. 
-                        The weather data was taken from 
-                        <a href="http://openweathermap.org" target="_blank">
-                            openweathermap.org</a>. 
-                    </p>
-                </div>
-            </div>
+        <div class="row summary"></div>
     
     <!--Right Column-->
-        <div class="col-md-4 col-sm-12 vis">
-            <h2>Visualizations</h2>
-            <hr>
-            <div class="container-fluid">
 
-                <div class="row visualizations">
-                    <p>
-                        <a href="temp.html"><img src="Resources/Images/world_temp_v_lat.png" border="0"></a>
-                    </p>
-                    <p>   
-                        <a href="humidity.html"><img src="Resources/Images/world_hum_v_lat.png" border="0"></a>
-                    </p>
-                    <p>  
-                        <a href="clouds.html"><img src="Resources/Images/world_cloud_v_lat.png" border="0"></a>
-                    </p>     
-                    <p>  
-                        <a href="wind.html"><img src="Resources/Images/world_wind_v_lat.png" border="0"></a>
-                    </p>
-                </div>
+    <h2>All Together</h2>
+    <h6>click on a picture for more information</h6>
+    <hr>
+    <div class="container-fluid">
+        <div class="row together">
+            <div class="col-md-3 col-sm-12">        
+                <p>
+                    <a href="temp.html"><img src="Resources/Images/world_temp_v_lat.png"></a>
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">     
+                <p>   
+                    <a href="humidity.html"><img src="Resources/Images/world_hum_v_lat.png"></a>
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <p>
+                    <a href="clouds.html"><img src="Resources/Images/world_cloud_v_lat.png"></a>
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">      
+                <p>  
+                    <a href="wind.html"><img src="Resources/Images/world_wind_v_lat.png"></a>
+                </p>
             </div>  
         </div>
-        </div>
+        <p class="first">
+            As we can see when looking at the world graphs, temperature is the only
+            measure of weather we chose that appears to be impacted by latitude.
+            It would be interesting to do similar comparisons with other measures 
+            of location such as elevation or distance to the nearest large body of water.
+        </p>
   </div>  
         
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
