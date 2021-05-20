@@ -95,6 +95,14 @@ h2 {
 	  right: 0;
 	  top: 0;
 	}
+
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
 }
 
 
