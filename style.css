@@ -98,6 +98,11 @@ h2 {
     margin-right: 25px;
 }
 
+.tabletable{
+    width: 850px;
+    height: 465px;
+}
+
 @media (max-width: 600px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive a.icon {
